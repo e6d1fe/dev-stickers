@@ -1,12 +1,12 @@
 import React from "react";
 import Layout from "../components/Layout";
 
-const IndexPage = () => {
+function Blog() {
   return (
-    <Layout title="Welcome to Devstickers ✨">
+    <Layout title="Blog">
       <div></div>
     </Layout>
   );
-};
+}
 
-export default IndexPage;
+export default Blog;
